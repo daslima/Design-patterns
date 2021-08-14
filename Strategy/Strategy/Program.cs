@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Strategy
+﻿namespace Strategy
 {
     class Program
     {
@@ -9,9 +7,14 @@ namespace Strategy
             Account account = new Account();
             account.ToDeposit(1000);
 
+            ITypeOfInvestor conservative = new Conservative();
+            ITypeOfInvestor moderate = new Moderate();
+            ITypeOfInvestor aggressive = new Aggressive();
+
+
             InvestmentCalculator investment = new InvestmentCalculator();
 
-            investment.Calculate(account, "Moderate");
+            investment.Calculate(account, moderate);
         }
     }
 }
