@@ -4,7 +4,15 @@
     {
         public IDiscount Next { get; set; }
 
-        public double Discount(Budget budget) => 0;
+        public Budget Discount(Budget budget)
+        {
+            if (budget.Discount.Equals(0))
+            {
+                budget.TypeDiscount = "DiscountDefault";
+                budget.Discount = 0;
+            }
+            return budget;
+        }
 
     }
 }

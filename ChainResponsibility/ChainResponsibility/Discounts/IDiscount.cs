@@ -4,7 +4,7 @@
     {
         IDiscount Next { get; set; }
 
-        double Discount(Budget budget);
+        Budget Discount(Budget budget);
      
     }
 }

@@ -4,7 +4,7 @@ namespace ChainResponsibility
 {
     public class DiscountCalculator
     {
-        public double Calculate(Budget budget)
+        public Budget Calculate(Budget budget)
         {
             IDiscount d1 = new DiscountMoreThanFiveItems();
             IDiscount d2 = new DiscountMoreThanFourItems();

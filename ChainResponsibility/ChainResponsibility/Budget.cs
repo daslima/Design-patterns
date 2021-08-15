@@ -4,7 +4,9 @@ namespace ChainResponsibility
 {
     public class Budget
     {
-        public double Total { get; private set; }
+        public double Total { get;  set; }
+        public double Discount { get; set; }
+        public string TypeDiscount { get; set; }
         public IList<Item> Items { get; private set; }
 
         public Budget() => Items = new List<Item>();

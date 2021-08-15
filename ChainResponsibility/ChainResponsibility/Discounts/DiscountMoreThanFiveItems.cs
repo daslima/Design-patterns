@@ -4,11 +4,16 @@
     {
         public IDiscount Next { get; set; }
 
-        public double Discount(Budget budget)
+        public Budget Discount(Budget budget)
         {
             //more than five items
             if (budget.Items.Count > 5)
-                return budget.Total * 0.1;
+            {
+                budget.TypeDiscount += "\n Discount More Than Five Items\n ";
+                budget.Discount += 0.1;
+                return Next.Discount(budget);
+            }
+                
               
             return Next.Discount(budget);
         }
