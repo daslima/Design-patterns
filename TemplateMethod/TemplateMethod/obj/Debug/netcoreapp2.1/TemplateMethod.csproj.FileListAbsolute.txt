@@ -1,0 +1,11 @@
+C:\Users\21145\Documents\Developer\C#\Padrões de Projetos\Design Patterns - Alura\Boas práticas de programação 1\Git\TemplateMethod\TemplateMethod\bin\Debug\netcoreapp2.1\TemplateMethod.deps.json
+C:\Users\21145\Documents\Developer\C#\Padrões de Projetos\Design Patterns - Alura\Boas práticas de programação 1\Git\TemplateMethod\TemplateMethod\bin\Debug\netcoreapp2.1\TemplateMethod.runtimeconfig.json
+C:\Users\21145\Documents\Developer\C#\Padrões de Projetos\Design Patterns - Alura\Boas práticas de programação 1\Git\TemplateMethod\TemplateMethod\bin\Debug\netcoreapp2.1\TemplateMethod.runtimeconfig.dev.json
+C:\Users\21145\Documents\Developer\C#\Padrões de Projetos\Design Patterns - Alura\Boas práticas de programação 1\Git\TemplateMethod\TemplateMethod\bin\Debug\netcoreapp2.1\TemplateMethod.dll
+C:\Users\21145\Documents\Developer\C#\Padrões de Projetos\Design Patterns - Alura\Boas práticas de programação 1\Git\TemplateMethod\TemplateMethod\bin\Debug\netcoreapp2.1\TemplateMethod.pdb
+C:\Users\21145\Documents\Developer\C#\Padrões de Projetos\Design Patterns - Alura\Boas práticas de programação 1\Git\TemplateMethod\TemplateMethod\obj\Debug\netcoreapp2.1\TemplateMethod.csprojAssemblyReference.cache
+C:\Users\21145\Documents\Developer\C#\Padrões de Projetos\Design Patterns - Alura\Boas práticas de programação 1\Git\TemplateMethod\TemplateMethod\obj\Debug\netcoreapp2.1\TemplateMethod.csproj.CoreCompileInputs.cache
+C:\Users\21145\Documents\Developer\C#\Padrões de Projetos\Design Patterns - Alura\Boas práticas de programação 1\Git\TemplateMethod\TemplateMethod\obj\Debug\netcoreapp2.1\TemplateMethod.AssemblyInfoInputs.cache
+C:\Users\21145\Documents\Developer\C#\Padrões de Projetos\Design Patterns - Alura\Boas práticas de programação 1\Git\TemplateMethod\TemplateMethod\obj\Debug\netcoreapp2.1\TemplateMethod.AssemblyInfo.cs
+C:\Users\21145\Documents\Developer\C#\Padrões de Projetos\Design Patterns - Alura\Boas práticas de programação 1\Git\TemplateMethod\TemplateMethod\obj\Debug\netcoreapp2.1\TemplateMethod.dll
+C:\Users\21145\Documents\Developer\C#\Padrões de Projetos\Design Patterns - Alura\Boas práticas de programação 1\Git\TemplateMethod\TemplateMethod\obj\Debug\netcoreapp2.1\TemplateMethod.pdb
