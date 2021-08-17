@@ -1,14 +1,12 @@
 ﻿namespace TemplateMethod
 {
-    public class SalesTax : Tax
+    public class SalesTax : TemplateTax
     {
-        public double CalculateTax(double value)
-        {
-            if (value >= 500)
-                return value * 0.07;
-            else
-                return value * 0.5;
-        }
+        public override double HighestRate(double value) => value * 0.07;
+
+        public override double LowerRate(double value) => value * 0.5;
+
+        public override bool ValidateOperation(double value) => value >= 500;
 
     }
 }

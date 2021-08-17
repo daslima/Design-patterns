@@ -1,22 +1,12 @@
 ﻿namespace TemplateMethod
 {
-    public class IncomeTax : Tax
+    public class IncomeTax : TemplateTax
     {
-        public double CalculateTax(double value)
-        {
-            if (value > 400 && ValueIs500(value))
-                return value * 0.10;
-            else
-                return value * 0.6;
-        }
+        public override double HighestRate(double value) => value * 0.10;
 
-        private bool ValueIs500(double value)
-        {
-            if (value == 500)
-                return true;
-            else
-                return false;
-        }
+        public override double LowerRate(double value) => value * 0.6;
+
+        public override bool ValidateOperation(double value) => value == 500;
 
     }
 }
